@@ -1,0 +1,39 @@
+{
+  "BaseUrl": "https://thinking-tester-contact-list.herokuapp.com/login",
+  "TableLocator": "//*[@id=\"myTable\"]/tr/td[2]",
+  "Urls": {
+    "Login": "login",
+    "Contacts": "contactList"
+  },
+  "Buttons": {
+    "Submit": "#submit",
+    "SignUp": "#signup",
+    "AddContact": "#add-contact",
+    "LogOut": "#logout",
+    "EditContact": "#edit-contact",
+    "Return": "#return",
+    "Delete": "#delete"
+  },
+  "Credentials": {
+    "EmailLocator": "#email",
+    "PasswordLocator": "#password",
+    "EmailValue": "xxxx",
+    "PasswordValue": "xxxx"
+  },
+  "FormCreateUserAndContact": {
+    "FirstNameLocator": "#firstName",
+    "LastNameLocator": "#lastName",
+    "FirstNameValue": "Test",
+    "LastNameValue": "Tester"
+  },
+  "FormCreateContact": {
+    "FirstNameValue": "John",
+    "LastNameValue": "Doe",
+    "EmailValue": "xxxx",
+    "FullNameValue": "John Doe"
+  },
+  "UpdateContact": {
+    "FirstNameValue": "John Updated",
+    "LastNameValue": "Doe Updated"
+  }
+}
